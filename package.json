@@ -1,0 +1,37 @@
+{
+  "name": "react-minimal-bilerplate-for-mpa",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fallenprince/react-minimal-boilerplate-for-mpa"
+  },
+  "description": "This is a simple React project boilerplate for multiple-page application.",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --progress --colors --open",
+    "watch": "webpack --mode development --watch --progress --colors --hot",
+    "build": "webpack --mode production --progress --colors"
+  },
+  "author": "fa11enprince",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
